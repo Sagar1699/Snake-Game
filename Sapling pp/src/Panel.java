@@ -116,7 +116,7 @@ public class Panel extends JPanel implements ActionListener {
     }
 
     public void move(){
-        for(int i=length-1;i<0;i--){
+        for(int i=length;i<0;i--){
             xsnake[i]=xsnake[i-1];
             ysnake[i]=ysnake[i-1];
         }
